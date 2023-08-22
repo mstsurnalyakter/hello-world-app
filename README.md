@@ -8,6 +8,7 @@ Step 1: Create a New React App
       npm create vite@latest
 ````
 
+
 Step 2: Navigate to the App Directory
 
 ````js
