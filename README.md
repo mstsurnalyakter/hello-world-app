@@ -1,8 +1,31 @@
-# React + Vite
+# Hello World App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### In this project, I created a simple `Hello World App` using `ReactJs`.
 
-Currently, two official plugins are available:
+Step 1: Create a New React App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+````js
+      npm create vite@latest
+````
+
+Step 2: Navigate to the App Directory
+
+````js
+      cd hello-world-app
+````
+
+Step 3: src/App.jsx
+
+````js
+      import React from 'react'
+
+      function App() {
+        return (
+          <>
+             <h1>Hello World</h1>
+          </>
+        )
+      }
+      
+      export default App
+````
